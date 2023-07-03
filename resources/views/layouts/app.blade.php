@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $metaTitle ?: 'TheCodeholic Blog' }}</title>
+    <title>{{ $metaTitle ?: 'Tavcode Blog' }}</title>
     <meta name="author" content="TheCodeholic">
     <meta name="description" content="{{ $metaDescription }}">
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
     </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://storage.plex.lat/public/logos/plexapps/favicon/favicon-32x32.png">
 
     <!-- Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
@@ -26,7 +27,7 @@
 <header class="w-full container mx-auto">
     <div class="flex flex-col items-center py-12">
         <a class="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="{{route('home')}}">
-            TheCodeholic Blog
+            Tavcode Blog
         </a>
         <p class="text-lg text-gray-600">
             {{ \App\Models\TextWidget::getTitle('header') }}

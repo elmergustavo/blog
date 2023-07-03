@@ -1,4 +1,4 @@
-<x-app-layout meta-title="TheCodeholic Blog"
+<x-app-layout meta-title="Tavcode Blog"
               meta-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
     <div class="container max-w-4xl mx-auto py-6">
 

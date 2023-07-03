@@ -52,7 +52,9 @@ class PostResource extends Resource
 
                 Forms\Components\Card::make()
                     ->schema([
-                        Forms\Components\FileUpload::make('thumbnail'),
+                        Forms\Components\FileUpload::make('thumbnail')
+                            ->enableDownload()
+                            ->enableOpen(),
                         Forms\Components\Select::make('categories')
                             ->multiple()
                             ->relationship('categories', 'title'),
